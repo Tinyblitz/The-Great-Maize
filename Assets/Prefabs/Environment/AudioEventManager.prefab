@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1805380702865482503
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1805380702865482497}
+  - component: {fileID: 1805380702865482502}
+  m_Layer: 0
+  m_Name: AudioEventManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1805380702865482497
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1805380702865482503}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.4810648, y: -0.5917516, z: -0.40859017}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1805380702865482502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1805380702865482503}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdbd3cb401fae4e04acc3cadbd86e219, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventSound3DPrefab: {fileID: 0}
+  boxAudio:
+  - {fileID: 8300000, guid: f55e7297b8ca7430cb3676367d35b2ad, type: 3}
+  - {fileID: 8300000, guid: 77929dc4c92444f789176181379c25b2, type: 3}
+  - {fileID: 8300000, guid: 1be55a3d189a54e7190521a9e2398061, type: 3}
+  - {fileID: 8300000, guid: 3b88b8446ff38435db98f2974e4495e3, type: 3}
+  - {fileID: 8300000, guid: 7d75b6132f9b7425abdb6c9043f888dd, type: 3}
+  - {fileID: 8300000, guid: 96f661cc8cbb24399bb96ff9e1bf0920, type: 3}
+  - {fileID: 8300000, guid: edc63164b8e2b4a608930be7c2656c2e, type: 3}
+  playerAudio: {fileID: 8300000, guid: 042ce8c825f06433ba8b7b8f08e2a2b4, type: 3}
+  gruntAudio: {fileID: 8300000, guid: 7f93a84d54a6a4236b1c452a814eb524, type: 3}
